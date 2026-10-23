@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Videos & Heavy Media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Datasets & Raw Images (Keep repo lightweight)
+train/
+valid/
+test/
+*.jpg
+*.jpeg
+*.png
+!OfsaytProjesi/v11_egitim/BoxF1_curve.png
+!OfsaytProjesi/v11_egitim/BoxPR_curve.png
+!OfsaytProjesi/v11_egitim/results.png
+
+# PyTorch checkpoints / big weights (Optional if using Git LFS, but best.pt is under 100MB)
+*.pth
+# *.pt (best.pt is 5.5MB, allowed by GitHub 100MB limit)
+
+# Environments & IDEs
+.env
+.venv/
+env/
+venv/
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary & Log files
+*.log
+*.tmp
+temp/
+scratch/
+*.lnk
